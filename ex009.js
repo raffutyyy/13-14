@@ -11,7 +11,19 @@ let pessoa2 = {
 }
 
 function y(pessoa, pessoa2){
-    let funcao = [ pessoa.nome, pessoa.nome.length, pessoa.idade, pessoa.profissao, pessoa.profissao.length, pessoa2.nome,  pessoa2.idade,  pessoa2.profissao, pessoa2.profissao.length]
+    let funcao = []
+    funcao.push(pessoa.nome)
+    funcao.push(pessoa.nome.length)
+    funcao.push(pessoa.idade)
+    funcao.push(pessoa.profissao)
+    funcao.push(pessoa.profissao.length)
+    funcao.push(pessoa2.nome)
+    funcao.push(pessoa2.nome.length)
+    funcao.push(pessoa2.idade)
+    funcao.push(pessoa2.profissao)
+    funcao.push(pessoa2.profissao.length)
+
+
    return funcao
 
 }

@@ -17,4 +17,4 @@ console.log(filme.elenco[filme.elenco.length - 1])
 console.log(filme.transmissoesHoje[2])
 
 
-// No primeiro console vai mostrar "Matheus Nachtergaele". No segundo vai mostrar a quantidade de pessoas que tem no elenco, 3. No terceiro vai mostrar Globo e o horario
+// No primeiro console vai mostrar "Matheus Nachtergaele". No segundo vai mostrar "Virginia Cavendish" . No terceiro vai mostrar Globo e o horario
